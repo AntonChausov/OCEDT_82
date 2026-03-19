@@ -42,4 +42,29 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
+  <tabularSections uuid="cd85a95e-7e58-49bf-81e5-b06c78711c55">
+    <producedTypes>
+      <objectType typeId="f42e29a6-90f6-4ed2-88bc-c78d01307d52" valueTypeId="0b43b801-ae4e-4864-b5ec-1d42c1050182"/>
+      <rowType typeId="9d63a3ab-4e2d-49c1-9499-371d4ca4c254" valueTypeId="93315aae-f966-4d5e-91df-9f8f8a1de6f8"/>
+    </producedTypes>
+    <name>Товары</name>
+    <synonym>
+      <key>ru</key>
+      <value>Товары</value>
+    </synonym>
+    <attributes uuid="59c40abc-082d-4934-8412-5c54f23fbedf">
+      <name>Номенклатура</name>
+      <synonym>
+        <key>ru</key>
+        <value>Номенклатура</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Номенклатура</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
 </mdclass:Document>
